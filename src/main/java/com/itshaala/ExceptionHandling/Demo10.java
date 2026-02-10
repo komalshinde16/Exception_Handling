@@ -3,7 +3,7 @@ package com.itshaala.ExceptionHandling;
 public class Demo10 {
     public static void main(String[] args) {
         try{
-            String str = "null";
+            String str = null;
             System.out.println(str.length());
             System.out.println(10/0);
             int [] array = {};
